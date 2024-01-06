@@ -167,7 +167,7 @@ main{
 }
 
 
-.what-i-do{
+.what-i-do,.resume{
     padding: 30px;
     border-radius: 10px;
     background: #FFF8F3;
@@ -176,12 +176,47 @@ main{
 }
 
 
-.skills-container{
+.skills-container,.resume-container{
     display: flex;
+    justify-content: space-between;
+
 }
 
 .skill{
     padding: 33px;
     gap:24px;
+    background-color: azure;
+    margin-right: 10px;
 }
 
+/* resume section style  */
+.resume-column{
+    width: 45%;
+    padding: 20px;
+}
+.resume-column-title{
+    color: #474747;   
+    font-size: 25px; 
+    font-weight: 700;
+ 
+}
+
+.resume-item-title{
+    color:  #474747;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.resume-item-institute{
+    color:  #757575;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.resume-item-description{
+    color: #757575;
+    font-size: 12px;
+    font-weight: 400;
+}
